@@ -1,0 +1,6 @@
+Goal: Build a browser version of a Sketchpad and Etch-A-Sketch
+
+Create webpage with a 16x16 grid of square divs
+	Create divs using JavasScript
+	Put grid squares inside of a "container" div (which is directly in the HTML)
+	
