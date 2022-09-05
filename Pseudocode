@@ -3,4 +3,7 @@ Goal: Build a browser version of a Sketchpad and Etch-A-Sketch
 Create webpage with a 16x16 grid of square divs
 	Create divs using JavasScript
 	Put grid squares inside of a "container" div (which is directly in the HTML)
-	
+	Create 256 squres for the grid using a for loop
+Set a hover effect so that the grid div changes color when the mouse passes over it
+	Event listener Mouse Hover
+	If mouse hovers over .cell, then change div .cell color to black
