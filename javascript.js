@@ -7,12 +7,13 @@ for (let i = 0; i < 256; i++) {
     //adds div in html to become a child of container
     container.appendChild(div);
 }
+
 //Create event listener for the hover effect
     //Selects all of the classes that are called "cell" and store in variable div
     const div = document.querySelectorAll('.cell');
     //forEach goes through all of the variable's contents
     div.forEach((div) => {
-        div.addEventListener('mouseover', () => {
+        div.addEventListener('mouseover' , () => {
         div.style.backgroundColor = 'black';
         })
     })
