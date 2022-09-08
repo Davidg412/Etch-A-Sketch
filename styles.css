@@ -1,13 +1,15 @@
 /*Applying CSS Grid Layout to HTML*/
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
 #container {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(16, 1fr);
     padding: 10px;
+    width: 960px
 }
 
 .cell {
@@ -16,3 +18,10 @@ body {
     padding: 20px;
     font-size: 30px;
 }
+
+.slide {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
