@@ -2,14 +2,15 @@
 body {
     display: grid;
     justify-content: center;
+    justify-items: center;
 }
 
 #container {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(16, 1fr);
-    padding: 10px;
-    width: 960px
+    width: 960px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .cell {
@@ -19,9 +20,7 @@ body {
     font-size: 30px;
 }
 
-.slide {
-    display: grid;
-    width: 100%;
-    justify-content: center;
+.button1 {
+    max-width: 960px;
+    justify-self: start;
 }
-
