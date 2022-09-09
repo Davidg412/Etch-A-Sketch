@@ -23,4 +23,5 @@ body {
 .button1 {
     max-width: 960px;
     justify-self: start;
+    padding: 10px;
 }
