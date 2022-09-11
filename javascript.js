@@ -22,17 +22,26 @@ function sketch() {
 
 
 //Create event listener to prompt user to input integer if they press the "change size" button
-function changeSize (size) {
+function changeSize () {
     const changeSize = document.querySelector('.button1');
         changeSize.addEventListener('click', () => {
         let size = prompt('Enter an integer for your desired grid-size (max = 100):');
-        // Checks if the user's input is an integer
-            if (Number.isInteger(size) = true) {
-                
+        // Checks if the user's input is an integer within scope
+        if (size >= 16 && size <= 100) {
+            container.textContent = "";
+                let newSize = size * size;
+                for (let i = 0; i < newSize; i++) {
+                    const div = document.createElement('div');
+                    //adds class name of "cell" to div
+                    div.classList.add('cell');
+                    //adds div in html to become a child of container
+                    container.appendChild(div);
+                }
+        }
+    }) 
 
-            }
-        })
-    }
-changeSize();
+ }
+
+ changeSize();
 
 sketch();
