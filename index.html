@@ -12,9 +12,12 @@
 </head>
 <body>
     <div class = buttons>
-        <input type="text" placeholder="Size of Board" value="16" />
+        <h1>Etch-A-Sketch</h1>
+        <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)" />
         <button>Set Size</button>
     </div>
-    <div id="container"></div>
+    <div class="frame">
+     <div id="container"></div>
+    </div>
 </body>
 </html>
