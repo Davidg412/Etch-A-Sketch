@@ -22,6 +22,7 @@ function sketch(size) {
 }
 sketch(16);
 
+//Create conditional function for user's input
 function changeSize(input) {
     if(input >=2 && input <= 100) {
         sketch(input);
