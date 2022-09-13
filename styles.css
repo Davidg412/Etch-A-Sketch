@@ -3,13 +3,15 @@ body {
     display: grid;
     justify-content: center;
     justify-items: center;
+    background-color: darkolivegreen;
 }
 
 #container {
     display: grid;
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 700px;
     padding-top: 40px;
+    
 }
 
 

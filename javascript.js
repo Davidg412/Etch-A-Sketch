@@ -13,6 +13,7 @@ function sketch(size) {
         cell.addEventListener('mouseover', () => {
             cell.style.backgroundColor = 'black';
         });
+        cell.style.backgroundColor = 'white';
         //adds class name of "cell" to div
         cell.classList.add('cell');
         //adds div in html to become a child of container
@@ -25,6 +26,6 @@ function changeSize(input) {
     if(input >=2 && input <= 100) {
         sketch(input);
     } else {
-        console.log('Error - Please enter a value between 2 and 100');
+        alert('Error - Please enter a value between 2 and 100');
     }
 }
